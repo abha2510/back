@@ -1,9 +1,8 @@
 const { Router } = require("express");
-const { authenticate } = require("../middleware/authenticate.middleware");
 const { CartModel } = require("../model/Cart.Model");
 const cartRoute = Router();
 
-cartRoute.get("/", authenticate, async (req, res) => {
+cartRoute.get("/", async (req, res) => {
   try {
     const cart = await CartModel.find()
     res.send(cart)
@@ -33,7 +32,7 @@ cartRoute.post("/add", async (req, res) => {
   }
 })
 
-cartRoute.patch("/update/:id", authenticate, async (req, res) => {
+cartRoute.patch("/update/:id", async (req, res) => {
     const _id = req.params.id;
     const payload = req.body;
     try {
