@@ -14,6 +14,9 @@ const app=express();
 app.use(express.json());
 app.use(cors());
 
+app.get("/",async(req,res)=>{
+    res.send("SilkTouch")
+})
 app.get("/data", async (req, res) => {
     const { q, limit, skip, sort, order, brand, uses } = req.query
 
