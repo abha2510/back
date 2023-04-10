@@ -6,14 +6,15 @@ const { authenticate } = require("../middleware/authenticate.middleware");
 require("dotenv").config()
 const userRoute=express.Router();
 
- userRoute.get('/',async (req, res) => {
-    try {
-       await UserModel.find();
-    } catch (e) {
-        return res.status(400).send(e.message)
-    }
-
-})
+userRoute.get("/", async (req, res) => {
+  try {
+    let user = await UserModel.find();
+    res.send(user);
+  } catch (error) {
+    console.log(error);
+    res.send({ msg: "Something went wrong"});
+  }
+});
 
  userRoute.post("/register",async(req,res)=>{
   const { username,gender, email, password, number } = req.body
