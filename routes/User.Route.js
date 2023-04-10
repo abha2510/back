@@ -7,13 +7,8 @@ require("dotenv").config()
 const userRoute=express.Router();
 
  userRoute.get('/',async (req, res) => {
-
-    const {user}=req.body;
-    console.log(user);
     try {
-       await UserModel.findOne({_id:user}).then(r => {
-            return res.status(200).send(r)
-        });
+       await UserModel.find();
     } catch (e) {
         return res.status(400).send(e.message)
     }
