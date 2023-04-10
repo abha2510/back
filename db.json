@@ -1,0 +1,558 @@
+[
+    {     
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12668223-1794932925803147.jpg",
+      "name": "Allies of Skin 35% Vitamin C Perfecting Serum (1 fl. oz.)",
+      "rating": 4.48,   
+      "price": "115.20",
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1,
+      "brand":"BeautyFIX"
+    },
+    {
+     
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13698361-5044944586849011.jpg",
+      "name": "Skin Gym Hyaluronic Roller",
+      "rating": 5,
+      "price": 69.99,
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1,
+      "brand":"BeautyFIX"
+    },
+    {   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12490082-1824845911573157.jpg",
+      "name": "FOREO UFO 2 1 piece - Pearl Pink",  
+      "rating": null,
+      "price": 299.00,
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1,
+      "brand":"BeautyFIX"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13315093-1014974668204085.jpg",
+      "name": "Augustinus Bader The Rich Cream 50ml",
+      "rating": 4.3,
+      "price": 290.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/1600/1600/12672738-1994796885567883.jpg",
+      "name": "U Beauty Resurfacing Compound 50ml /1.7 oz",
+      "rating": null,
+      "price": 228.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12483289-18750099333596.jpg",
+      "name": "Sarah Chapman Skinesis Glow Moisturiser 30ml",
+      "rating": null,
+      "price": 68.00,
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12932548-2534984326440526.jpg",
+      "name": "SkinCeuticals Phyto Corrective Essence Mist 50ml",
+      "rating": 4.27,
+      "price": 69.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13956540-1434996957844526.jpg",
+      "name": "PCA SKIN Resurfacing Serum 1 oz",
+      "rating": 4.33,
+      "price": 99.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13835523-5024993391621196.jpg",
+      "name": "Elemis Dynamic Resurfacing Super-C Serum 30ml",
+      "rating": null,
+      "price": 139.00,
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1
+    },
+    {
+ 
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13920976-2644983786116838.jpg",
+      "name": "Glo Skin Beauty Dermstore Exclusive Bio-Renew EGF Cream and EGF Drops Duo",
+      "rating": 5,
+      "price": 175.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11921605-1934931961112791.jpg",
+      "name": "Chantecaille Bio Lifting Serum+ 30ml",     
+      "rating": 5,
+      "price": 298.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13315092-2094974668098059.jpg",
+      "name": "Augustinus Bader The Cream 50ml",
+      "rating": 5,
+      "price": 290.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13870151-2124980389495679.jpg",
+      "name": "Pai Skincare C-2 Believe Vitamin C Brightening Moisturizer 50ml",
+      "rating": null,
+      "price": 79.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13926947-1774978328274825.jpg",
+      "name": "Exuviance Gentle Daily Exfoliating Pads 55ml",
+      "rating": null,
+      "price": 45.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12691011-18648854794762.jpg",
+      "name": "U Beauty The Super Hydrator 1.7 fl oz",
+      "rating": null,
+      "price": 168.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11054488-6294867924186974.jpg",
+      "name": "First Aid Beauty Ultra Repair Cream (6 oz.)",
+      "rating": 4.62,
+      "price": 38.00,
+      "category":"skin",
+      "type":"Dehydrate",
+      "quantity":1,
+      "brand":"BeautyFIX"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289609-1174892770940184.jpg",
+      "name": "SkinCeuticals C E Ferulic (1 fl. oz.)",
+      "rating": 4.75,
+      "price": 182.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13926946-1924978328145078.jpg",
+      "name": "Neostrata PHA Renewal Pads 55ml",
+      "rating": null,
+      "price": 45.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11291543-1265002181700054.jpg",
+      "name": "Obagi Medical Professional-C Serum 20% (1 fl. oz.)",
+      "rating": 4.73,
+      "price": 139.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11588281-8764882139037003.jpg",
+      "name": "Sunday Riley GOOD GENES All-In-One Lactic Acid Treatment (1.7oz. - $175 Value)",
+      "rating": 4.64,    
+      "price": 122.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12664555-17048739992403.jpg",
+      "name": "Neocutis LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating Tightening Eye Cream (0.5 fl. oz.)",
+      "rating": 4,
+      "price": 118.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13339906-1564915031255922.jpg",
+      "name": "Revision Skincare® D.E.J eye cream 0.5 oz.",
+      "rating": 4.59,
+      "price": 114.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+  
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12901507-76648870005221.jpg",
+      "name": "Eminence Organic Skin Care Clear Skin Probiotic Cleanser 8.4 fl. oz",
+      "rating": 4.64,
+      "price": 48.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289677-3634870995577404.jpg",
+      "name": "SkinMedica Age Defense Retinol Complex 0.5 (1 fl. oz.)",
+      "rating": 4.76,
+      "price": 80.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289052-1374909086933576.jpg",
+      "name": "Paula's Choice C15 Super Booster (0.67 fl. oz.)",
+      "rating": 4.45,
+      "price": 55.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12666791-4044866391045062.jpg",
+      "name": "Colorescience Total Eye™ 3-in-1 Renewal Therapy SPF 35 (0.23 fl. oz.)",
+      "rating": 4.46,
+      "price": 74.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11480968-6134886339162385.jpg",
+      "name": "Dermalogica Daily Microfoliant Travel Size (0.45 oz.)",
+      "rating": 4.67,
+      "price": 18.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12810724-3094862237321775.jpg",
+      "name": "Medik8 Crystal Retinal 3 Serum 30ml",
+      "rating": 4.64,
+      "price": 62.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12132656-6244866376675296.jpg",
+      "name": "PCA SKIN Vitamin B3 Brightening Serum (1 fl. oz.)",
+      "rating": 4.61,
+      "price": 124.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+  
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12913066-7594853428676949.jpg",
+      "name": "Sunday Riley LUNA Sleeping Night Oil",
+      "rating": 4.51,
+      "price":258.00,
+      "category":"skin",
+      "type":"Oily",
+      "quantity":1,
+      "brand":"SkinMedica"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11290635-1804892767902966.jpg",
+      "name": "SkinCeuticals Triple Lipid Restore 242 (1.6 fl. oz.)",
+      "rating": 4.8,
+      "price": 150.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11395385-5474911401472936.jpg",
+      "name": "SkinCeuticals Hyaluronic Acid Intensifier (1 fl. oz.)",
+      "rating": 4.76,
+      "price": 110.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289599-4344892770055931.jpg",
+      "name": "SkinCeuticals A.G.E. Eye Complex (0.5 oz.)",
+      "rating": 4.59,
+      "price": 105.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+     
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11370303-1255014851959274.jpg",
+      "name": "EltaMD UV Clear Broad-Spectrum SPF 46 (1.7 oz.)",
+      "rating": 4.79,
+      "price": 41.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+  
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289619-20448927629386.jpg",
+      "name": "SkinCeuticals Hydrating B5 Gel (1 fl. oz.)",
+      "rating": 4.7,
+      "price": 90.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+  
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11370312-1945014852424127.jpg",
+      "name": "EltaMD UV Clear Broad-Spectrum SPF 46 - Tinted (1.7 oz.)",
+      "rating": 4.72,
+      "price": 43.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289626-19348927763618.jpg",
+      "name": "SkinCeuticals Phloretin CF (1 fl. oz.)",
+      "rating": 4.72,
+      "price": 182.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289629-15448927938209.jpg",
+      "name": "SkinCeuticals Phyto Corrective Gel (1 fl. oz.)",
+      "rating": 4.56,
+      "price": 78.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+  
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289613-86948927126034.jpg",
+      "name": "SkinCeuticals Daily Moisture (2 fl. oz.)",
+      "rating": 4.62,
+      "price": 76.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11535234-1295019012616653.jpg",
+      "name": "SkinCeuticals LHA Cleanser Gel (8 fl. oz.)",
+      "rating": 4.67,
+      "price": 42.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289635-1424892772796680.jpg",
+      "name": "SkinCeuticals Resveratrol B E (1 fl. oz.)",
+      "rating": 4.58,
+      "price": 168.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11289606-5314892770614708.jpg",
+      "name": "SkinCeuticals Blemish + Age Defense (1 fl. oz.)",
+      "rating": 4.68,
+      "price": 106.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11294635-1994892768429109.jpg",
+      "name": "SkinCeuticals A.G.E. Interrupter (1.7 oz.)",   
+      "rating": 4.64,
+      "price": 168.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+    
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11679046-1554892769100800.jpg",
+      "name": "SkinCeuticals Discoloration Defense (1 fl. oz.)",
+      "rating": 4.31,
+      "price": 108.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/1600/1600/12538013-4764765050522444.jpg",
+      "name": "EltaMD UV Clear SPF46 Broad-Spectrum Duo (Worth $82)",
+      "rating": 4.86,
+      "price": 80.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11312847-1234892768495982.jpg",
+      "name": "SkinCeuticals Emollience (2 fl. oz.)",
+      "rating": 4.72,
+      "price": 76.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+    "image": "https://static.thcdn.com/images/small/webp//productimg/original/11535230-2064892768801202.jpg",
+      "name": "SkinCeuticals Gentle Cleanser (6.8 fl. oz.)",
+      "rating": 4.74,
+      "price": 36.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11370314-1465014852537629.jpg",
+      "name": "EltaMD UV Elements Tinted Broad-Spectrum SPF 44 (2 oz.)",
+      "rating": 4.66,
+      "price": 40.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/11370304-7405014852016604.jpg",
+      "name": "EltaMD AM Therapy Facial Moisturizer (1.7 oz.)",
+      "rating": 4.76,
+      "price": 41.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+       "image": "https://static.thcdn.com/images/small/webp//productimg/original/11535233-1444892768930832.jpg",
+      "name": "SkinCeuticals Purifying Cleanser (6.8 fl. oz.)",
+      "rating": 4.59,
+      "price": 36.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Skin Gym"
+    },
+    {
+   
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12941160-73748557827456.jpg",
+      "name": "SkinCeuticals Physical Fusion UV Defense SPF 50",
+      "rating": 4.63,
+      "price": 299.00,
+      "category":"skin",
+      "type":"Normal",
+      "quantity":1,
+      "brand":"Comfort Zone"
+    }
+   ]
