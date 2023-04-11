@@ -19,26 +19,32 @@ app.get("/",async(req,res)=>{
     res.send("SilkTouch")
 })
 app.get("/data", async (req, res) => {
-    const { q, limit, skip, sort, order, brand, uses } = req.query
+    const { q, limit, skip, sort, order, brand, type} = req.query
 
     const query = { name: { $regex: q, $options: "i" } }
     let x;
-    if (q == undefined && brand == undefined && uses == undefined) {
+    if (q == undefined && brand == undefined && type== undefined) {
         x = {}
     }
     else if (q !== undefined) {
         x = query
     }
-    else if (q === undefined && brand !== undefined && uses === undefined) {
+    else if (q === undefined && brand !== undefined && type=== undefined) {
         x = { brand }
     }
-    else if (q !== undefined && brand === undefined && uses === undefined) {
+    else if (q === undefined && brand === undefined && type!== undefined) {
+        x = { type }
+    }
+    else if (q !== undefined && brand === undefined && type=== undefined) {
         x = query
     }
 
     let y = {}
     if (sort == 'brand') {
         y = { brand: order }
+    }
+    else if (sort == 'type') {
+        y = { type: order }
     }
     else if (sort == 'rating') {
         y = { rating: order }
