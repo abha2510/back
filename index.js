@@ -66,7 +66,7 @@ app.get("/data", async (req, res) => {
 app.get("/data/:_id", async (req, res) => {
     const { _id } = req.params
     try {
-        const data = await productModel.find({ _id })
+        const data = await ProductModel.find({ _id })
         res.send(data)
     } catch (err) {
         res.send({ "msg": "Can't find" })
