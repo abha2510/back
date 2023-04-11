@@ -9,6 +9,7 @@ const {wishlistRoute}=require("./routes/Wishlist.Route")
 const cors=require("cors");
 const { adminRoute } = require("./routes/Admin.Route");
 const { UserModel } = require("./model/User.Model");
+const {ProductModel} =require("./model/Product.model")
 const app=express();
 
 app.use(express.json());
@@ -51,7 +52,7 @@ app.get("/data", async (req, res) => {
 
 
     try {
-        const data = await productModel.find(x).sort(y).limit(limit).skip(skip)
+        const data = await ProductModel.find(x).sort(y).limit(limit).skip(skip)
         res.send(data)
     }
     catch (err) {
