@@ -46,17 +46,11 @@ cartRoute.patch("/update/:id", async (req, res) => {
 
 cartRoute.delete("/delete/:id",async (req, res) => {
   const id = req.params.id
-  const note = await CartModel.findOne({ "_id": id })
-  const user_id_in_note = note.user
-  const user_id_making_req = req.body.user
 
-  try {
-      if (user_id_making_req !== user_id_in_note) {
-          res.send({ "mag": "Your not autherrished" })
-      } else {
+  try {  
           await CartModel.findByIdAndDelete({ "_id": id })
           res.send({ "msg": "Product has been removed from cart" })
-      }
+      
   } catch (err) {
       res.send({ "msg": "Product not removed from cart" })
   }
