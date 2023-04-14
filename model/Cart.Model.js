@@ -7,7 +7,7 @@ const cartSchema = new Schema({
     rating: Number,
     image: String,
     type:String,
-    qantity:String,
+    qantity:Number,
     category:String,
     userId:String   
 }, {
