@@ -11,6 +11,18 @@ const userSchema = mongoose.Schema({
     versionKey:false,
 })
 
+// const userSchema = mongoose.Schema({
+//     googleId: String,
+//     username: String,
+//     email: String,
+//     password: String,
+//     gender: String,
+//     number: Number
+// },{
+//     versionKey:false,
+// });
+
+
 const UserModel = mongoose.model("user",userSchema)
 
 module.exports={UserModel}

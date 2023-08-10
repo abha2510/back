@@ -2,6 +2,7 @@ const express= require("express");
 const jwt =require("jsonwebtoken");
 const bcrypt= require("bcrypt");
 const { UserModel } = require("../model/User.Model");
+const { BlacklistedToken } = require('../model/BlackList.Model');
 const { authenticate } = require("../middleware/authenticate.middleware");
 require("dotenv").config()
 const userRoute=express.Router();
@@ -30,7 +31,7 @@ userRoute.get("/", async (req, res) => {
               } else {
                   const user = new UserModel({ username, email, password: hash,gender, number })
                   await user.save()
-                  res.send({ "msg": "new user has been register" })
+                  res.send({ "msg": "New user has been register" })
               }
           });
       }
@@ -39,6 +40,15 @@ userRoute.get("/", async (req, res) => {
       res.send({ "msg": "Can't register" ,error:err.message})
   }
  })
+
+//  {
+//   "username": "Abha",
+//   "email": "abha@gmail.com",
+//   "password": "abha",
+//   "number":7896543210,
+//   "gender":"Female"
+
+// }
 
  userRoute.post("/login",async(req,res)=>{
     const {email,password} = req.body;
@@ -82,5 +92,28 @@ userRoute.get("/", async (req, res) => {
       res.send({ msg: "Email is not registered." })
     }
   })
+
+  userRoute.post("/logout", authenticate, async (req, res) => {
+    try {
+        // Get the token from the headers (or wherever you have it)
+        const token = req.headers.authorization.split(" ")[1];
+        
+        // Decode the token to get its expiry date
+        const decoded = jwt.decode(token);
+        
+        const blacklistedToken = new BlacklistedToken({
+            token: token,
+            expiryDate: decoded.exp
+        });
+        
+        await blacklistedToken.save();
+        
+        res.send({ "msg": "Logout successful" });
+    } catch (err) {
+        res.send({ "msg": "Logout failed", error: err.message });
+    }
+});
+
+
  module.exports={userRoute}
 

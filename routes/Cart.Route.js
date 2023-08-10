@@ -3,14 +3,15 @@ const { CartModel } = require("../model/Cart.Model");
 const cartRoute = Router();
 
 cartRoute.get("/", async (req, res) => {
+  const userId = req.body.user;
   try {
-    const cart = await CartModel.find()
-    res.send(cart)
-} catch (err) {
-    res.send({ "msg": "No Product" })
-}
- 
+    const cart = await CartModel.find({ user: userId });
+    res.send(cart);
+  } catch (err) {
+    res.send({ "msg": "No Product" });
+  }
 });
+
 
 cartRoute.get("/usercart", async (req, res) => {
   const user_id_making_req = req.body.user
@@ -24,13 +25,15 @@ cartRoute.get("/usercart", async (req, res) => {
 
 cartRoute.post("/add", async (req, res) => {
   try {
-      const cart = new CartModel(req.body)
-      await cart.save()
-      res.send({ "msg": "Product has been added to cart" })
+      // Add the user's ID to the cart item before saving
+      const cartItem = { ...req.body, user: req.body.user };
+      const cart = new CartModel(cartItem);
+      await cart.save();
+      res.send({ "msg": "Product has been added to cart" });
   } catch (err) {
-      res.send("Not Added")
+      res.send("Not Added");
   }
-})
+});
 
 cartRoute.patch("/update/:id", async (req, res) => {
     const _id = req.params.id;
